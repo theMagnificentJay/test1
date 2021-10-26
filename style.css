@@ -39,7 +39,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "nav nav nav";
-  background: url(/assets/Header.png) no-repeat center;
+  background: url(./assets/Header.png) no-repeat center;
   background-size: cover;
   height: 440px;
 }
@@ -156,7 +156,7 @@ nav .navBtn {
 
 .innerContent1 {
   grid-area: innerContent1;
-  background: url(/assets/Video.png) no-repeat center;
+  background: url(./assets/Video.png) no-repeat center;
   background-size: cover;
   filter: brightness(75%);
   transition: 0.25s;
