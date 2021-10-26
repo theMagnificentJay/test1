@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
   display: grid;
   height: 400vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 1fr 1fr 1fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "nav nav nav"
     "main main main"
@@ -408,7 +408,7 @@ nav .navBtn {
 .content3 {
   background-color: #1b2125;
   grid-area: content3;
-  max-height: 125px;
+  /* max-height: 125px; */
 }
 
 .content3 p {
@@ -422,6 +422,8 @@ nav .navBtn {
 .content4 {
   background-color: #e8e9e9;
   grid-area: content4;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .content4-container {
